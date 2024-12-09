@@ -9,7 +9,7 @@ public class CalculadorIsosceles {
         int anchoPanel = 2;
 
         int cantidadDePaneles = (baseTriangulo * alturaTriangulo) / (2 * largoPanel * anchoPanel);
-        System.out.println(cantidadDePaneles);
+        System.out.println("La cantidad de paneles que caben en este triangulo son:  " + cantidadDePaneles + ".");
     }
 }
 

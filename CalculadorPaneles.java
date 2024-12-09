@@ -8,7 +8,7 @@ public class CalculadorPaneles {
             int largoDelPanel = 2;
 
             int cantidadPaneles = (largoDelArea * anchoDelArea) / (anchoDelPanel * largoDelPanel);
-        System.out.println(cantidadPaneles);
+        System.out.println("La cantidad de paneles que caben en esta area son: " + cantidadPaneles +".");
 
         }
 
